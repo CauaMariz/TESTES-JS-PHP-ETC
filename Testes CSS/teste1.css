@@ -1,0 +1,36 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bx{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin: 50px auto 0;
+}
+
+@media(max-width: 1200px){
+  .bx1{
+    display: none;
+  }
+}
+@media(max-width: 900px){
+  .bx3{
+    display: none;
+  }
+}
+@media(max-width: 700px){
+  .bx2{
+    display: none;
+  }
+}
+@media(max-width: 600px){
+  .container{
+    flex-wrap: wrap;
+  } 
+  .bx1, .bx2, .bx3{
+    display: block;
+  }
+}
+    
