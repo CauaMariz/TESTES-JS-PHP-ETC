@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!--Na linha 17, o try serve para tentar algo, no caso escrever 'bem vindo', se nao der certo, usa o catch na linha 20, que escreve no innerHTML err.message, que signica que vai escrever que algo esta errado na parte do try exatamente aonde esta o erro-->
+<h2>Erro em JS</h2>
+
+<p>Como usar <b>catch e try</b> para um ERRO.</p>
+
+<p id="demo"></p>
+
+<script>
+try {
+  document.getElementById("demo").innerHTML ="Bem vindo";
+}
+catch {
+  document.write('Algo esta errado')
+}
+</script>
+
+</body>
+</html>

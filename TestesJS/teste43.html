@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste44</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    body{
+      background:linear-gradient(90deg,rgb(0, 11, 165),rgb(53, 30, 156),rgb(148, 116, 175));
+    }
+    #square {
+      height: 100px;
+      width: 100px;
+      background-color: rgb(161, 45, 255);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    div {
+      transition: 0.7s;
+      cursor: pointer;
+      animation: pular 3s infinite;
+      ;
+    }
+
+    div:hover {
+      transition: 0.7s;
+      transform: scale(1.1);
+    }
+
+    @keyframes pular {
+
+      0%,
+      100% {
+        transform: translateX(0%);
+      }
+
+      50% {
+        transform: translateY(90%);
+      }
+
+    }
+
+    #title{
+      background-color: rgb(55, 158, 255);
+      width: 400px;
+      text-align: center;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      border-radius: 15px;
+      color: aliceblue;
+      padding: 5px;
+    }
+
+    h1,
+    p {
+      font-family: "Lato";
+      font-size: 50px;
+      text-align: center;
+    }
+
+    p {
+      width: 150px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 16%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: 0.6s;
+      color: aliceblue;
+    }
+
+    p:hover {
+      transition: 0.6s;
+      background-color: rgb(41, 116, 255);
+      color: rgb(255, 255, 255);
+      width: 150px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 16%;
+      left: 50%;
+      border-radius: 16px;
+      transform: translate(-50%, -50%);
+    }
+
+    
+
+    @media(max-width: 800px) {
+      #FrsSq {
+        position: absolute;
+        margin-left: -5% !important;
+      }
+
+      #ScnSq {
+        position: absolute;
+        margin-left: -5% !important;
+      }
+
+      #ForSq {
+        position: absolute;
+        margin-left: -11% !important ;
+      }
+
+      #FivSq {
+        position: absolute;
+        margin-left: -11% !important;
+      }
+
+      #clickAq {
+        padding: 10px !important;
+      }
+
+    }
+    @media(max-width: 1400px){
+      #FrsSq {
+        position: absolute;
+        margin-left: -2% !important;
+      }
+
+      #ScnSq {
+        position: absolute;
+        margin-left: -4% !important;
+      }
+      #TrhSq{
+        position: absolute;
+        
+      }
+      #ForSq {
+        position: absolute;
+        margin-left: -2% !important;
+      }
+
+      #FivSq {
+        position: absolute;
+        margin-left: -4% !important;
+      }
+
+      #clickAq {
+        padding: 10px !important;
+      }
+      }
+      @media(max-width: 1180px){
+      #FrsSq {
+        position: absolute;
+        margin-left: -2% !important;
+      }
+
+      #ScnSq {
+        position: absolute;
+        margin-left: -4% !important;
+      }
+      #TrhSq{
+        position: absolute;
+      }
+      #ForSq {
+        position: absolute;
+        margin-left: -2% !important;
+      }
+
+      #FivSq {
+        position: absolute;
+        margin-left: -4% !important;
+      }
+
+      #clickAq {
+        padding: 10px !important;
+      }
+      @media(max-width: 1100px){
+      #FrsSq {
+        position: absolute;
+        margin-left: -4% !important;
+      }
+
+      #ScnSq {
+        position: absolute;
+        margin-left: -8% !important;
+      }
+      #ForSq {
+        position: absolute;
+        margin-left: -4% !important;
+      }
+
+      #FivSq {
+        position: absolute;
+        margin-left: -8% !important;
+      }
+
+      #clickAq {
+        padding: 10px !important;
+      }
+      }
+      @media(max-width: 900px){
+      #FrsSq {
+        position: absolute;
+        margin-left: -6% !important;
+      }
+
+      #ScnSq {
+        position: absolute;
+        margin-left: -12% !important;
+      }
+      #ForSq {
+        position: absolute;
+        margin-left: -6% !important;
+      }
+
+      #FivSq {
+        position: absolute;
+        margin-left: -12% !important;
+      }
+
+      #clickAq {
+        padding: 10px !important;
+      }
+      }
+      @media(max-width: 800px){
+      #FrsSq {
+        position: absolute;
+        margin-left: -7% !important;
+      }
+
+      #ScnSq {
+        position: absolute;
+        margin-left: -14% !important;
+      }
+      #ForSq {
+        position: absolute;
+        margin-left: -7% !important;
+      }
+
+      #FivSq {
+        position: absolute;
+        margin-left: -14% !important;
+      }
+
+      #clickAq {
+        padding: 10px !important;
+      }
+      }
+      
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <h1 id="title">Square Game</h1>
+  <script src="teste43.js"></script>
+  <div id="square" onclick="Func1()"></div>
+  <script src="teste43.js"></script>
+</body>
+
+</html>
