@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #dedede;
+        }
+
+        button{
+            display: flex;
+            position: relative;
+            row-gap: 5px;
+            flex-direction: column;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            top: 2vh;
+            margin-left: 1%;
+        }
+        button span{
+            background-color: grey;
+            width: 20px;
+            height: 2px;
+        }
+        .menu{
+            transition: 0.6s;
+            width: 0;
+            height: 0;
+            margin-top: -10vh;
+        }
+        .ativar{
+            width: 100vw;
+            height: 100px;
+            padding: 20px;
+            background-color:blue;       opacity: 1;
+            transition: 0.6s;
+            margin-top: -5vh;
+            a{
+                color: white;
+                text-decoration: none;
+                font-family: arial;
+                margin-left: 3%;
+
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!---
+    Usar o toggle é muito mais facil, pois nao é preciso fazer toda aquela verificacao de se o elemento tiver tal classe ativa tal coisa. O pro´rio toggle faz isso sozinho. Basta apenas criar uma classe que adiciona height, width, cor e no JavaScript voce da nomeElementoQueVoceQuerQueApareca.classlist.toggle("nomeDaClassQueFazAparecer")
+    -->
+        
+  
+
+
+    <button id="btn" type="button" onclick="Ver()">
+        <span id="span"></span>
+        <span id="span"></span>
+        <span id="span"></span>
+    </button>
+
+    <div class="menu"></div>
+    <script src="teste61.js"></script>
+</body>
+</html>
