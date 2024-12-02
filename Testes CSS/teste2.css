@@ -1,0 +1,30 @@
+/*As vezes, qquando colocamos uma imagem de fundo, ela acaba se repetindo, e para isso nao acontecer existe o background-repeat: repeat-x; e para verticalmente: background-repeat: repeat-y; e para nao repetir a imagem nenhuma vez: background-repeat: no-repeat;*/
+body {
+  height: 120vh;
+}
+
+.fundo {
+  background-image: url("imgsTeste2/image.png");
+  height: 90px;
+  width: 100%;
+}
+
+.fundo {
+  background-repeat: no-repeat;
+}
+
+/*Existe tambem uma propriedade para posicionar a imagem:  background-position: center; e outros valores: como right top etc 
+*/
+.fundo{
+  background-position: center;
+}
+/*Para preencher todo o eelemento com a img: background-size: cover;*/
+.fundo{
+  background-size: cover;
+}
+/*Especifica q a img deve rolar com o resto da pag:   background-attachment: scroll; Especifica q a img nao deve rolar com o resto da pag:   background-attachment: scroll;*/
+
+.fundo {
+  background-attachment: scroll;
+}
+/*Para nao ter q escrever varios background, faca tudo em uma linha: background: #ffffff url("img_tree.png") no-repeat right top; Tem q ser nesta exatta ordem*/
